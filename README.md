@@ -154,5 +154,5 @@ it should return your precise path instead of a blank line.
 
 ## 🔎 Adreno Vulkan Drivers and Packages
 ```
-URL
+https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md
 ``` 
