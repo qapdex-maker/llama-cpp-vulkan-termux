@@ -152,7 +152,7 @@ it should return your precise path instead of a blank line.
 
 ---
 
-## 🔎 Adreno-Vulkan (Turnip Adreno/Mesa) Termux Driver
+## 🔎 Turnip Adreno Vulkan/Mesa Termux Driver
 ```
 https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md
 ``` 
