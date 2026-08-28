@@ -25,8 +25,14 @@ Update your Termux repositories and install `llama-cpp` along with the necessary
 pkg update && pkg upgrade -y
 pkg install tur-repo -y
 pkg install x11-repo -y
-pkg install vulkan-tools vkmark vulkan-loader-generic mesa-vulkan-icd-freedreno -y
+```
+-
+```
+pkg install vulkan-tools vulkan-loader-generic mesa-vulkan-icd-freedreno -y
 pkg update -y
+```
+-
+```
 pkg install llama-cpp llama-cpp-backend-vulkan -y
 ```
 
