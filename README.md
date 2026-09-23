@@ -144,7 +144,7 @@ export PATH=$PATH:$HOME/shaderc/build/glslc/
 
 * You can verify that your optimized configurations are loaded into the operational landscape of your current terminal environment by using the query tools:
 ```
-  echo $MESA_VK_WSI_PRESENT_MODE
+echo $MESA_VK_WSI_PRESENT_MODE
 ```
 *It must output: *immediate* to confirm the bypass of presentation synchronization locks.
 #
@@ -159,6 +159,4 @@ it should return your precise path instead of a blank line.
 
 ## 🔎 Turnip Adreno Vulkan/Mesa Termux Driver
 
-[Installation](https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md)
-
----
+[Installation](https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md) 
