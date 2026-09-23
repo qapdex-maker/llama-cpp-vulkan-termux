@@ -87,11 +87,11 @@ llama-server \
 
 ### Accessing the Chat Interface
 Open your Android web browser and navigate to:
-👉 **`http://127.0.0.1:8080`**
+  **`http://127.0.0.1:8080`**
 
 ---
 
-## 🐛 Troubleshooting Covered in this Repo
+## 🐛 Troubleshooting
 * **Pointer tag truncated / Clang Aborted:** Fixed by setting `EXECUTABLE_DISABLE_MTE=1`.
 * **OMP: Error #13 Assertion Failure:** Bypassed via `--no-warmup` and `KMP_AFFINITY=disabled`.
 * **Vulkan Info showing `llvmpipe`:** Solved by mapping the dedicated Turnip ICD backend file path.
@@ -138,7 +138,6 @@ export MESA_VK_WSI_PRESENT_MODE=immediate
 export ASAN_OPTIONS=allow_user_segv_handler=1
 export MESA_SPIRV_LOG_LEVEL=warn
 export PATH=$PATH:$HOME/shaderc/build/glslc/
-# --- done
 ```
 
 ---
@@ -159,6 +158,7 @@ it should return your precise path instead of a blank line.
 ---
 
 ## 🔎 Turnip Adreno Vulkan/Mesa Termux Driver
-```
-https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md
-``` 
+
+[Installation](https://github.com/qapdex-maker/termux-notes/blob/main/adreno-vulkan/README.md)
+
+---
